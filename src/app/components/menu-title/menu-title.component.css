@@ -1,0 +1,31 @@
+
+.menu__title__container{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.menu__title__container > h1{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  letter-spacing: .3rem;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: normal;
+}
+
+.menu__title__container > p{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 25px;
+  font-weight: bolder;
+  text-align: center;
+
+}
+
+.menu__title__container > hr{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-color:antiquewhite ;
+}
