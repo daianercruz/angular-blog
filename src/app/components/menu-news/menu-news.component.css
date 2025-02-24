@@ -1,0 +1,11 @@
+.container__manu_news > ul{
+  display: flex;
+  flex-direction: row;
+}
+
+.container__manu_news  >ul >li {
+  margin-right: 20px;
+  list-style: none;
+
+}
+
