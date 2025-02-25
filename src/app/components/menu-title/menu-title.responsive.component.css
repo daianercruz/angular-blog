@@ -1,0 +1,6 @@
+
+@media (width <= 450px) {
+.menu__title__container > p{
+  font-size: 15px;
+}
+}
