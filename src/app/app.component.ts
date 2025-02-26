@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { HomeComponent } from "./pages/home/home.component";
+import { MenuNewsComponent } from "./components/menu-news/menu-news.component";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, MenuNewsComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

@@ -1,36 +1,17 @@
+
 <div class = "container__small_card">
-  <div>
-    <h1>Ultimas Noticias!</h1>
-  </div>
 
 <div class = "small__card__content">
-
-  <div class="small_card_1">
-
+  <div class="small__card_photo">
     <img src="{{photoCover}}">
-    <h1 class="small_card_text_1">{{cardTitle}}</h1>
-
   </div>
-  <div class="small_card_2">
-    <img src="https://i.ytimg.com/vi/T59NN6Gu3Us/maxresdefault.jpg"
-    alt=""
-    srcset="">
-    <h1 class="small_card_text_2">Spider-Man Parou o Trem</h1>
 
-  </div>
-  <div class="small_card_3">
-    <img src="https://preview.redd.it/path-traced-images-from-the-arasaka-dashi-parade-and-play-v0-wt5uqltno3xa1.png?width=3840&format=png&auto=webp&s=ae605cafa228ddc96046c59d67c23f5dc151c45f"
-    alt=""
-    srcset="">
-    <h1 class="small_card_text_3">O Festival Arasaka</h1>
 
-  </div>
-  <div class="small_card_4">
-    <img src="https://i.ytimg.com/vi/umbTjPyBnGw/maxresdefault.jpg"
-    alt=""
-    srcset="">
-    <h1 class="small_card_text_4">Até Tu Brutus!</h1>
+  <div class="small-card__title">
+    <h1><a [routerLink]="['content', Id]">{{cardTitle}}</a></h1>
 
-  </div>
 </div>
 </div>
+</div>
+
+
